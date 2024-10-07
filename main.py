@@ -1,6 +1,6 @@
 import cv2
 from stable_baselines3.common.env_checker import check_env
-from Ambiente_robot_fine_tuning_V4 import RobotEnv
+from AmbienteRobot import RobotEnv
 from stable_baselines3 import DQN
 from stable_baselines3.common.monitor import Monitor
 import warnings
