@@ -1,4 +1,4 @@
-from Ambiente_robot_fine_tuning_V4 import RobotEnv
+from AmbienteRobot import RobotEnv
 import pybullet as p
 
 from stable_baselines3 import DQN
