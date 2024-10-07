@@ -30,7 +30,7 @@ if __name__ == '__main__':
     obs, _ = test_env.reset()
 
     # Test del modello addestrato
-    for i in range(98):
+    for i in range(100):
         action, _states = model.predict(obs, deterministic=True)
         # action = test_env.action_space.sample()
         _, reward, _, _, _ = test_env.step(action)
