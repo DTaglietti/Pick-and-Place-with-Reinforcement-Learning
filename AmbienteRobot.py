@@ -43,7 +43,6 @@ TODO:
     LIBRERIE
 """
 import random
-
 import gymnasium as gym
 import pybullet as p
 import pybullet_data
